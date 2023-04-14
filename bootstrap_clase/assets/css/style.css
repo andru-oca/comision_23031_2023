@@ -1,0 +1,43 @@
+:root {
+    --border: 1px solid #999;
+}
+
+
+body {
+    height: 100vh;
+}
+
+div[class^=container] {
+    /* border: var(--border); */
+    height: 100%;
+}
+
+
+header,
+mian,
+footer {
+    border-radius: 1rem;
+}
+
+
+header {
+    /* background-color: chartreuse; */
+    height: 10%;
+}
+
+main {
+    /* background-color: turquoise; */
+    height: 70%;
+}
+
+footer {
+    /* background-color: darkslateblue; */
+    height: 20%;
+}
+
+
+.formulario,
+.carrousel {
+    margin: 1rem;
+    /* border: var(--border) */
+}
